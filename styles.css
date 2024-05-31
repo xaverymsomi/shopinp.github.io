@@ -1,0 +1,170 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffc0cb; /* Pink */
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+header h1 {
+    display: inline;
+    margin: 0;
+    padding: 0 20px;
+}
+
+nav {
+    display: inline;
+    float: right;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+/* Products Section */
+.products {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 1.2em;
+    color: #e67e22;
+}
+
+.product a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* About Section */
+.about {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: left;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Product Details Section */
+.product-details {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.product-details h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.product-details img {
+    display: block;
+    margin: 0 auto 20px;
+    width: 50%;
+    height: auto;
+}
+
+.product-details p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
